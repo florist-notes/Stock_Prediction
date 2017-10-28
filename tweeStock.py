@@ -1,5 +1,5 @@
  '''
- Project started : 21:50 , 27/10/2017 | PwC challenge #9, Hack2Innovate Hackathon (2 Day), IIT-G
+ Project started : 21:50 , 28/10/2017 | PwC challenge #9, Hack2Innovate Hackathon (2 Day), IIT-G
  Sentiment Analysis of Tweets & predicting Stock prices based on user sentiments about # Amazon
 
  Dataset : We have created both the data sets on our own.
