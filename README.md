@@ -63,5 +63,10 @@ Correlation between the two columns ( tweet_sent,stock_sent ) of data.txt found 
 It's plot is :
 ![Correlation plot](https://github.com/SKKSaikia/Stock_Prediction/blob/master/corr.png)
 
-Model : Tensorflow Deep Neural Network (DNN)
-       
+if (correlation > 70 )
+{
+   Model : Tensorflow Deep Neural Network (DNN)
+   Training : Gradient Descent
+   Test data
+   result
+}
