@@ -2,4 +2,4 @@
  Sentiment Analysis of Tweets &amp; predicting Stock prices based on user sentiments about # Amazon
 
 
-![alt text](https://drive.google.com/file/d/0ByqooCIGbyKianJHVFlDdk1mb00/view?usp=sharing)
+![Input Image](https://raw.githubusercontent.com/SKKSaikia/Stock_Prediction/blob/master/input.PNG)
