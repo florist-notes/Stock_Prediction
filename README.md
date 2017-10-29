@@ -64,9 +64,9 @@ It's plot is :
 ![Correlation plot](https://github.com/SKKSaikia/Stock_Prediction/blob/master/corr.png)
 
 if (correlation > 70 )
-{
+
    Model : Tensorflow Deep Neural Network (DNN)
    Training : Gradient Descent
    Test data
    result
-}
+
