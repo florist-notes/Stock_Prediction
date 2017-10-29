@@ -67,6 +67,8 @@ import sys
 import random
 import string
 import unicodedata
+import tflearn
+import tensorflow as tf
 
 if corr_p >= 70:
         tbl = dict.fromkeys(i for i in range(sys.maxunicode) if unicodedata.category(chr(i)).startswith('P'))
