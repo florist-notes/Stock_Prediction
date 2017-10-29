@@ -18,7 +18,7 @@
      
  We lack proper cleaned datasets for both Stock data & tweets of same timeframe in the meantime.
  
- Note : Since, the stock fluctuations are made up & the tweets too.We are unable to predict and match with real case scenarios.For instance, during festive season, people generally shops more & feel happy about it.This trend during festive season generally tends to increase stock prices, because of more demand of the products.Since, here we dont have a time to time mapped dataset of people's sentiments & stock fluctuation, We are unable to predict/verify if really that happened.
+ Note : Since, the stock fluctuations are made up & the tweets too.We are unable to predict and match with real case scenarios.For instance, during festive season, people generally shops more & feel happy about it.This trend during festive season generally tends to increase stock prices, because of more demand of the products.Since, here we dont have a time to time mapped dataset of people's sentiments & stock fluctuation, We are unable to predict/verify if it really that happened.
  
 Future case scenario : With proper datastes, we can better train the model & hence get better accuracy.We will be able to extend & predict the same outcome of another e-commerce site during similar historic events.
 
