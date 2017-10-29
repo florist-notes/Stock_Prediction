@@ -22,7 +22,25 @@
  
 Future case scenario : With proper datastes, we can better train the model & hence get better accuracy.We will be able to extend & predict the same outcome of another e-commerce site during similar historic events.
 
-Meanwhile :
+Meanwhile : To run 
+
+Dependencies:
+
+    01. numpy
+    02. pandas
+    03. matplotlib
+    04. json
+    05. tflearn
+    06. tensorflow
+    07. sklearn
+    08. nltk
+    09. sys
+    10. random
+    11. string
+    12. unicodedata
+        
+    TO RUN : >>>tweeStock.py
+
 
 
 INPUT TEST CASES:
@@ -35,3 +53,5 @@ OUTPUT TEST CASES:
 
 
 We can see our model performs well for the self generated test cases.In future, we can maybe get real time tweets with the help of an API & predict the stock fluctuations for the coming days & give the functionality through a webapp.
+
+
