@@ -5,6 +5,7 @@
  Sentiment Analysis of Tweets & predicting Stock prices based on user sentiments about # Amazon
  
  Dataset : We have created 2 data sets on our own.
+ 
  (1) data.json - is a dictionary holding a key-value pair of sentiment ( 1 for positive & 0 for negative )
      , where "key" is the sentiment ( either 0 or 1 ) & "value" is the sample tweet (" Actual Tweet by users").
      
