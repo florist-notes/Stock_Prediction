@@ -62,3 +62,6 @@ BEHIND THE SCENES:
 Correlation between the two columns ( tweet_sent,stock_sent ) of data.txt found is : 85.7785299553 %
 It's plot is :
 ![Correlation plot](https://github.com/SKKSaikia/Stock_Prediction/blob/master/corr.png)
+
+Model : Tensorflow Deep Neural Network (DNN)
+       
