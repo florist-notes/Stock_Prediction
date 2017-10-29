@@ -56,3 +56,8 @@ OUTPUT TEST CASES:
 We can see our model performs well for the self generated test cases.In future, we can maybe get real time tweets with the help of an API & predict the stock fluctuations for the coming days & give the functionality through a webapp.
 
 
+
+BEHIND THE SCENES:
+
+Correlation between the two columns ( tweet_sent,stock_sent ) of data.txt found is : 85.7785299553 %
+It's plot is :
