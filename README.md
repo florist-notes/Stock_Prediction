@@ -9,7 +9,9 @@
  (1) data.json - is a dictionary holding a key-value pair of sentiment ( 1 for positive & 0 for negative )
      , where "key" is the sentiment ( either 0 or 1 ) & "value" is the sample tweet (" Actual Tweet by users").
      
- (2) data.txt - sample data file holding 2 columns & 100 rows (rows denote no of cases)
+ (2) data.txt - sample data file holding 2 columns & 100 rows (rows denote no of cases).
+ 
+     The two columns:
      column ( tweet_sent ) - holds data if the tweet was positive ( 1 ) or negative ( 0 ).
      column ( stock_sent ) - holds data if stock price rose ( 1 ) or fell ( 0 ).
      0 for fall/-ve sentiment & 1 for rise/+ve sentiment.
