@@ -34,4 +34,4 @@ OUTPUT TEST CASES:
 ![Output Image](https://github.com/SKKSaikia/Stock_Prediction/blob/master/output.PNG)
 
 
-We can see our model performs well for the self generated test cases.In future, we can maybe get real time tweets with the help of an API & predict the stock fluctuations for the coming days.
+We can see our model performs well for the self generated test cases.In future, we can maybe get real time tweets with the help of an API & predict the stock fluctuations for the coming days & give the functionality through a webapp.
