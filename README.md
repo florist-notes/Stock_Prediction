@@ -3,3 +3,7 @@
 
 
 ![Input Image](https://github.com/SKKSaikia/Stock_Prediction/blob/master/input.PNG)
+
+
+![Output Image](https://github.com/SKKSaikia/Stock_Prediction/blob/master/output.PNG)
+
