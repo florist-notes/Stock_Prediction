@@ -22,7 +22,6 @@
  
 Future case scenario : With proper datasets, we can better train the model & hence get better accuracy.We will be able to extend & predict the same outcome of another e-commerce site during similar historic events.
 
-Meanwhile : To run 
 
 Dependencies:
 
@@ -38,7 +37,9 @@ Dependencies:
     10. random
     11. string
     12. unicodedata
-        
+
+To run : 
+
     TO RUN : >>>tweeStock.py
 
 
