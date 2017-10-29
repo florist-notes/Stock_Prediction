@@ -71,6 +71,7 @@ import tflearn
 import tensorflow as tf
 
 if corr_p >= 70:
+        # A table structure to hold the different punctuation used
         tbl = dict.fromkeys(i for i in range(sys.maxunicode) if unicodedata.category(chr(i)).startswith('P'))
 
         def remove_punctuation(text):
@@ -80,7 +81,9 @@ if corr_p >= 70:
 
 
         categories = list(data.keys())
+        # “words” will hold all the unique stemmed words in all the sentences provided for training
         words = []
+        # docs will hold a list of tuples with words in the sentence and category name
         docs = []
 
         for each_category in data.keys():
@@ -90,6 +93,7 @@ if corr_p >= 70:
                 words.extend(w)
                 docs.append((w, each_category))
 
+        # stem and lower each word and remove duplicates
         words = [stemmer.stem(w.lower()) for w in words]
         words = sorted(list(set(words)))
 
@@ -99,13 +103,19 @@ if corr_p >= 70:
 
         training = []
         output = []
-
+        
+        # create an empty array for our output
         output_empty = [0] * len(categories)
 
+        # create a bag of words & tell which category the current bag of words belong to
         for doc in docs:
+            # initialize our bag of words(bow) for each document in the list
             bow = []
+            # list of tokenized words for the pattern
             token_words = doc[0]
+            # stem each word
             token_words = [stemmer.stem(word.lower()) for word in token_words]
+            # create our bag of words array /// insert 1 for true 0 for false, since data into Tensorflow must be numeric tensor
             for w in words:
                 bow.append(1) if w in token_words else bow.append(0)
             output_row = list(output_empty)
@@ -115,6 +125,7 @@ if corr_p >= 70:
         random.shuffle(training)
         training = np.array(training)
 
+        # trainX contains the Bag of words and train_y contains the label/ category
         train_x = list(training[:,0])
         train_y = list(training[:,1])
 
@@ -145,8 +156,7 @@ if corr_p >= 70:
             Testing the DNN
             ---------------------------------------------------------------------------
         '''
-          # let's test the mdodel for a few sentences:
-          # the first two sentences are used for training, and the last two sentences are not present in the training data.
+          # let's test the mdodel for these few sentences:
         sent_1 = "Amazon is Bad"                   # 0
         sent_2 = "dussehra dhamaka offer"          # 1
         sent_3 = "I love amazon"                   # 1
