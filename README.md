@@ -65,8 +65,8 @@ It's plot is :
 
 if (correlation > 70 )
 
-   Model : Tensorflow Deep Neural Network (DNN)
-   Training : Gradient Descent
-   Test data
-   result
+   Model : Tensorflow Deep Neural Network (DNN).
+   Training : Gradient Descent.
+   Test data.
+   result.
 
