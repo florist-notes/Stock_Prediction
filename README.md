@@ -1,6 +1,8 @@
 # Stock_Prediction
 
- Project started : 21:50 , 28/10/2017 | PwC challenge #9, Hack2Innovate Hackathon (2 Day), IIT-G
+# This project is being worked upon and all features being implemented.Proper repo will be updated.
+
+ Project started : 21:50 , 28/10/2017 | PwC challenge #9, Hack2Innovate Hackathon (24 hours), IIT-G
 
  Sentiment Analysis of Tweets & predicting Stock prices based on user sentiments about # Amazon
  
